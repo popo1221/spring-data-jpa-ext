@@ -60,6 +60,7 @@ public class SpecificationBuilder<T> {
         cache.put("prod", ProdOperator.class);
         cache.put("diff", DiffOperator.class);
         cache.put("quot", QuotOperator.class);
+        cache.put("mod", ModOperator.class);
     }
 
 
