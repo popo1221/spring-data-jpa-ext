@@ -73,6 +73,7 @@ public class SpecificationBuilder<T> {
         // Collection
         cache.put("isEmpty", IsEmptyOperator.class);
         cache.put("isNotEmpty", IsNotEmptyOperator.class);
+        cache.put("size", SizeOperator.class);
 
     }
 
