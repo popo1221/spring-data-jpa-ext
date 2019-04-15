@@ -52,6 +52,8 @@ public class SpecificationBuilder<T> {
         cache.put("length", LengthOperator.class);
         cache.put("lower", LowerOperator.class);
         cache.put("upper", UpperOperator.class);
+
+        cache.put("abs", AbsOperator.class);
     }
 
 
