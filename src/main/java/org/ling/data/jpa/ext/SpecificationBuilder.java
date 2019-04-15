@@ -53,6 +53,7 @@ public class SpecificationBuilder<T> {
         cache.put("length", LengthOperator.class);
         cache.put("lower", LowerOperator.class);
         cache.put("upper", UpperOperator.class);
+        cache.put("toString", ToStringOperator.class);
 
         // Numbers
         cache.put("abs", AbsOperator.class);
@@ -62,6 +63,13 @@ public class SpecificationBuilder<T> {
         cache.put("quot", QuotOperator.class);
         cache.put("mod", ModOperator.class);
         cache.put("sqrt", SqrtOperator.class);
+        cache.put("toBigDecimal", ToBigDecimalOperator.class);
+        cache.put("toBigInteger", ToBigIntegerOperator.class);
+        cache.put("toDouble", ToDoubleOperator.class);
+        cache.put("toFloat", ToFloatOperator.class);
+        cache.put("toInteger", ToIntegerOperator.class);
+        cache.put("toLong", ToLongOperator.class);
+        
     }
 
 
