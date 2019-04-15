@@ -49,6 +49,7 @@ public class SpecificationBuilder<T> {
         cache.put("like", LikeOperator.class);
         cache.put("notLike", NotLikeOperator.class);
 
+        // Strings
         cache.put("length", LengthOperator.class);
         cache.put("lower", LowerOperator.class);
         cache.put("upper", UpperOperator.class);
@@ -57,6 +58,7 @@ public class SpecificationBuilder<T> {
         cache.put("abs", AbsOperator.class);
         cache.put("neg", AbsOperator.class);
         cache.put("prod", ProdOperator.class);
+        cache.put("diff", DiffOperator.class);
     }
 
 
