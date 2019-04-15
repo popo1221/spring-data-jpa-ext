@@ -55,6 +55,7 @@ public class SpecificationBuilder<T> {
         cache.put("upper", UpperOperator.class);
         cache.put("toString", ToStringOperator.class);
         cache.put("concat", ConcatOperator.class);
+        cache.put("substring", SubstringOperator.class);
 
         // Numbers
         cache.put("abs", AbsOperator.class);
