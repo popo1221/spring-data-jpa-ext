@@ -51,6 +51,8 @@ public class SpecificationBuilder<T> {
 
         // Date
         cache.put("currentDate", CurrentDateOperator.class);
+        cache.put("currentTime", CurrentTimeOperator.class);
+        cache.put("currentTimestamp", CurrentTimestampOperator.class);
 
         // Strings
         cache.put("length", LengthOperator.class);
