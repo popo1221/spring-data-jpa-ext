@@ -53,8 +53,10 @@ public class SpecificationBuilder<T> {
         cache.put("lower", LowerOperator.class);
         cache.put("upper", UpperOperator.class);
 
+        // Numbers
         cache.put("abs", AbsOperator.class);
         cache.put("neg", AbsOperator.class);
+        cache.put("prod", ProdOperator.class);
     }
 
 
