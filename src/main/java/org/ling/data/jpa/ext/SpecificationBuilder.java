@@ -69,7 +69,11 @@ public class SpecificationBuilder<T> {
         cache.put("toFloat", ToFloatOperator.class);
         cache.put("toInteger", ToIntegerOperator.class);
         cache.put("toLong", ToLongOperator.class);
-        
+
+        // Collection
+        cache.put("isEmpty", IsEmptyOperator.class);
+        cache.put("isNotEmpty", IsNotEmptyOperator.class);
+
     }
 
 
