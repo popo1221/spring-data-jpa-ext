@@ -49,6 +49,9 @@ public class SpecificationBuilder<T> {
         cache.put("like", LikeOperator.class);
         cache.put("notLike", NotLikeOperator.class);
 
+        // Date
+        cache.put("currentDate", CurrentDateOperator.class);
+
         // Strings
         cache.put("length", LengthOperator.class);
         cache.put("lower", LowerOperator.class);
